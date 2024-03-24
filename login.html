@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Here</title>
+    <link rel="stylesheet" type="text/css" href="loginpage.css">
+	<script type="module" src="loginscript.js"></script>
+    <link rel="icon" href="https://i0.wp.com/sjbit.edu.in/wp-content/uploads/2021/07/AICTE-Logo-250x250-1.png?ssl=1" type="image/x-icon">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="l_form_wrap">
+            <div class="title">
+                <p>Login Form for AICTE curriculum</p>
+            </div>
+            <div class="l_form">
+                <form>
+                    <div class="input_wrap">
+                        <label for="yourname">User Name</label>
+                        <div class="input_item">
+                            <span class="icon">
+                                <ion-icon name="person-sharp"></ion-icon>
+                            </span>
+                            <input type="text" name="your name" class="input" id="yourname">
+                        </div>
+                    </div>
+                    <div class="input_wrap">
+                        <label for="password">Password</label>
+                        <div class="input_item">
+                            <span class="icon">
+                                <ion-icon name="key-sharp"></ion-icon>
+                            </span>
+                            <input type="password" name="password" class="input" id="password">
+                        </div>
+                    </div>
+                    <button type="button" onclick="login()">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

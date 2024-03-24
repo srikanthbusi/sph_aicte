@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+	--white: #ffffffd9;
+	--text-clr: #000024;
+	--primary: #876dcf;
+	--secondary: #ee2626;
+	--input-bg: #fafbf5;
+	--btn-hvr: #6d3df1;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+	body{
+		background-image: url(ER23_0101_HeaderArt_1600x900.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	
+
+.wrapper{
+	width: 100%;
+	padding: 0 10px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.l_form_wrap{
+	width: 500px;
+	max-width: 100%;
+}
+
+.l_form_wrap .title{
+	padding: 25px;
+	background: var(--white);
+	border-radius: 3px;
+	margin-bottom: 20px;
+}
+
+.l_form_wrap .title p{
+	font-size: 25px;
+	text-align: center;
+}
+
+.l_form{
+	padding: 40px;
+	border-radius: 3px;
+	background: var(--white);
+}
+
+.l_form .input_wrap{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.l_form .input_wrap label{
+	display: block;
+	margin-bottom: 5px;
+}
+
+.l_form .input_wrap .input_item{
+	position: relative;
+	width: 100%;
+}
+
+.l_form .input_wrap .input_item .input{
+	width: 100%;
+	border-radius: 3px;
+	height: 40px;
+	border: 2px solid var(--input-bg);
+	background: var(--input-bg);
+	padding: 10px 20px;
+	padding-left: 50px;
+	transition: 0.5s ease;
+	color: var(--secondary);
+}
+
+.l_form .input_wrap .input_item .input:focus{
+	border-color: var(--primary);
+}
+
+.l_form .input_wrap .input_item .icon{
+	position: absolute;
+	top: 12px;
+	left: 20px;
+	color: var(--secondary);
+	font-size: 16px;
+}
+
+
+button{
+	width: 100%;
+	border: 0;
+	background: var(--primary);
+	padding: 10px;
+	border-radius: 3px;
+	height: 40px;
+	color: var(--white);
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+
+button:hover{
+	background: var(--btn-hvr);
+}

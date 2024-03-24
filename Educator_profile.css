@@ -1,0 +1,113 @@
+body{
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-position: right 40vw bottom 50vh, left 40vw top 50vh;
+    background-repeat: no-repeat;
+    background-color: hsl(208, 95%, 50%);
+    background: linear-gradient(to right, #e104f0, #6b6bff);
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    width: 100vw;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: auto 0%;
+    background-color: white;
+    background-image: url("background-images.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10%;
+    box-shadow: 2px 2px 100px 5px hsl(0, 0%, 59%);
+}
+
+.perfil{
+    margin-top: 26%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    border: white solid 5px;
+    width: 25%;
+}
+
+.perfil p{
+    margin: 0%;
+}
+
+.perfil strong{
+    font-size: 22px; 
+    margin-top: 15px; 
+    margin-bottom: 7px; 
+    color: hsl(229, 23%, 23%);
+}
+
+.perfil .cidade, span{
+    color: hsl(227, 10%, 46%); 
+    font-weight: normal;
+}
+
+
+.informacoes{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.informacoes div{
+    margin: 6% 0%;
+}
+
+.informacoes p{
+    color: hsl(227, 10%, 46%);
+    margin: 0%;
+    font-size: 15px;
+}
+
+.informacoes h1{
+    margin: 0%;
+    margin-bottom: 7%;
+    color: hsl(229, 23%, 23%);
+}
+
+@media screen and (max-width: 460px) {
+    main{
+        max-width: 90%;
+    }
+
+    main .perfil, .perfil strong{
+        font-size: 5vw;
+    }
+
+    .informacoes div{
+        font-size: 3vw;
+    }
+
+    .informacoes p{
+        font-size: 3.5vw;
+    }
+}
+.bg {
+    /* The image used */
+    
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
